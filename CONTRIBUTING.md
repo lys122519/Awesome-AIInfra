@@ -28,6 +28,8 @@ Rejected tracker candidates should be added to `data/rejected.yaml` with a short
 
 For large tracker batches, `scripts/screen_candidates.py` can produce precision-oriented recommendations. These recommendations are not accepted records by themselves; review the decision file before setting `reviewed: true`.
 
+The scheduled auto-curation workflow uses the narrower `apply_screening.py --accept-only` mode. It adds high-confidence accepts after validation but deliberately leaves every reject unrecorded for possible human review.
+
 After reviewing a decision file, apply it with:
 
 ```bash

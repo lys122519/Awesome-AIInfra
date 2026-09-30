@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Awesome-AIInfra is the reviewed knowledge base paired with [AIInfra-paper-update-tracker](https://github.com/lys122519/AIInfra-paper-update-tracker). The tracker discovers candidates; this repository accepts only human-reviewed records.
+Awesome-AIInfra is the curated knowledge base paired with [AIInfra-paper-update-tracker](https://github.com/lys122519/AIInfra-paper-update-tracker). The tracker discovers candidates; this repository accepts human-reviewed records and high-confidence records admitted by the documented automatic policy.
 
 ## Source of truth
 
@@ -18,9 +18,9 @@ Awesome-AIInfra is the reviewed knowledge base paired with [AIInfra-paper-update
 3. Prefer DOI, publisher, OpenReview, or official conference publication URLs.
 4. Accept code URLs only when they belong to the authors or official project.
 5. Check both accepted and rejected datasets for duplicates.
-6. Set `reviewed: true` and `reviewed_at` only after relevance, metadata, and category review.
-7. Add changes through a pull request; do not directly import an entire tracker cache.
-8. `scripts/screen_candidates.py` only recommends decisions. Inspect its output before marking records reviewed.
+6. Set `reviewed: true` and `reviewed_at` only after human review or acceptance by the high-confidence automatic policy. Record the applicable `review_method`.
+7. Human changes go through a pull request. The scheduled auto-curation workflow may commit validated high-confidence accepts; it must never directly import an entire tracker cache.
+8. `scripts/screen_candidates.py` recommends decisions. Human batches require inspection. Automatic runs may apply only its high-confidence accepts with `apply_screening.py --accept-only`; automatic rejects must not be recorded.
 9. Apply an inspected batch with `scripts/apply_screening.py`; it rejects conflicts between accepted and rejected datasets and safely skips decisions that were already applied.
 
 ## Validation
@@ -33,3 +33,7 @@ python -m unittest discover -s tests -v
 ```
 
 The generated README and `data/papers.yaml` must be committed together.
+
+## Automatic curation
+
+`.github/workflows/auto-curate.yml` runs one day after each scheduled tracker update. It checks out the public tracker, exports and screens its active candidates, applies only high-confidence accepts, regenerates the README, runs validation and tests, and commits the result. Candidates not accepted by the policy remain available for later human review.

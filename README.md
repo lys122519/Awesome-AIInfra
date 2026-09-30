@@ -17,10 +17,12 @@ A curated collection of papers, systems, tools, and learning resources for AI In
 ## Update Workflow
 
 1. The tracker discovers candidate papers from official DBLP snapshots.
-2. Candidates are reviewed for relevance, metadata quality, and category placement.
-3. Accepted records are added to `data/papers.yaml` through pull requests.
+2. Candidates are screened for relevance, metadata quality, and category placement.
+3. High-confidence matches are collected automatically; ambiguous candidates remain available for human review through pull requests.
 4. `scripts/generate_readme.py` validates the data and regenerates this paper list.
-5. Rejected candidates are recorded in `data/rejected.yaml` to avoid repeated review.
+5. Human-reviewed rejections are recorded in `data/rejected.yaml` to avoid repeated review; automatic screening never records a rejection.
+
+Automatic synchronization runs on days 4 and 18 at 01:17 UTC, one day after each scheduled tracker update. Every automatic change must pass data validation and the test suite before it is committed.
 
 ## Curated Papers
 

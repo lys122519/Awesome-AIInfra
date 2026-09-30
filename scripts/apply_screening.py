@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply a reviewed screening decision file to the curated datasets."""
+"""Apply reviewed decisions or high-confidence automatic accepts."""
 
 from __future__ import annotations
 
@@ -31,6 +31,7 @@ def apply_decisions(
     decision_path: Path,
     reviewed_at: str,
     review_method: str,
+    accept_only: bool = False,
 ) -> tuple[int, int, int]:
     decisions = _load_list(decision_path, "decisions")
     papers = _load_list(PAPERS_PATH, "papers")
@@ -54,6 +55,9 @@ def apply_decisions(
             raise ValueError(f"decision #{index} has no publication URL")
         if decision not in {"accept", "reject"}:
             raise ValueError(f"decision #{index} has an invalid decision: {decision!r}")
+        if accept_only and decision != "accept":
+            skipped += 1
+            continue
 
         if publication in accepted_urls:
             if decision != "accept":
@@ -113,9 +117,14 @@ def main() -> None:
     parser.add_argument("decisions", type=Path, help="reviewed YAML produced by screen_candidates.py")
     parser.add_argument("--reviewed-at", default=date.today().isoformat())
     parser.add_argument("--review-method", default="ai-infra-title-policy-v1")
+    parser.add_argument(
+        "--accept-only",
+        action="store_true",
+        help="Apply high-confidence accept decisions and leave all rejects unrecorded",
+    )
     args = parser.parse_args()
     accepted, rejected, skipped = apply_decisions(
-        args.decisions, args.reviewed_at, args.review_method
+        args.decisions, args.reviewed_at, args.review_method, args.accept_only
     )
     print(f"Added {accepted} accepted and {rejected} rejected records; skipped {skipped} existing records.")
 

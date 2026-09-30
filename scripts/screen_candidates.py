@@ -3,7 +3,8 @@
 
 The policy is intentionally precision-oriented. It accepts candidates from
 core systems venues or titles with an explicit AI infrastructure contribution.
-All recommendations still require review before entering data/papers.yaml.
+Human batches require review. The scheduled workflow may automatically apply
+only accept decisions; reject decisions remain unrecorded without human review.
 """
 
 from __future__ import annotations
