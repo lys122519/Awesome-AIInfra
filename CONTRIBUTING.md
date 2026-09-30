@@ -25,3 +25,14 @@ A paper should make a direct systems contribution to AI infrastructure, such as 
 8. Commit both `data/papers.yaml` and the regenerated `README.md` in the same pull request.
 
 Rejected tracker candidates should be added to `data/rejected.yaml` with a short reason.
+
+For large tracker batches, `scripts/screen_candidates.py` can produce precision-oriented recommendations. These recommendations are not accepted records by themselves; review the decision file before setting `reviewed: true`.
+
+After reviewing a decision file, apply it with:
+
+```bash
+python scripts/apply_screening.py path/to/screening-decisions.yaml --reviewed-at YYYY-MM-DD
+python scripts/generate_readme.py
+```
+
+The importer is idempotent: records already present with the same decision are skipped, while conflicting decisions stop the import.

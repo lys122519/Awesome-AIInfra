@@ -13,6 +13,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 PAPERS_PATH = ROOT / "data" / "papers.yaml"
+REJECTED_PATH = ROOT / "data" / "rejected.yaml"
 TEMPLATE_PATH = ROOT / "README.template.md"
 README_PATH = ROOT / "README.md"
 
@@ -77,6 +78,32 @@ def load_and_validate(path: Path = PAPERS_PATH) -> list[dict]:
     return validate_papers(papers)
 
 
+def load_and_validate_rejected(
+    accepted_papers: list[dict], path: Path = REJECTED_PATH
+) -> list[dict]:
+    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    rejected = payload.get("rejected", []) if isinstance(payload, dict) else []
+    if not isinstance(rejected, list):
+        raise ValueError("data/rejected.yaml must contain a top-level `rejected` list")
+
+    accepted_urls = {str(paper["publication"]).strip().casefold() for paper in accepted_papers}
+    seen_urls: set[str] = set()
+    required = {"title", "publication", "reason", "source", "reviewed_at"}
+    for index, record in enumerate(rejected, start=1):
+        if not isinstance(record, dict):
+            raise ValueError(f"rejected record #{index} must be a mapping")
+        missing = sorted(field for field in required if not record.get(field))
+        if missing:
+            raise ValueError(f"rejected record #{index} is missing: {', '.join(missing)}")
+        publication = str(record["publication"]).strip().casefold()
+        if publication in accepted_urls:
+            raise ValueError(f"publication is both accepted and rejected: {record['publication']}")
+        if publication in seen_urls:
+            raise ValueError(f"duplicate rejected publication URL: {record['publication']}")
+        seen_urls.add(publication)
+    return rejected
+
+
 def render_papers(papers: list[dict]) -> str:
     grouped: dict[str, dict[int, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for paper in papers:
@@ -127,17 +154,24 @@ def main() -> int:
     args = parser.parse_args()
 
     papers = load_and_validate()
+    rejected = load_and_validate_rejected(papers)
     expected = build_readme(papers)
     if args.check:
         actual = README_PATH.read_text(encoding="utf-8") if README_PATH.exists() else ""
         if actual != expected:
             print("README.md is out of date; run python scripts/generate_readme.py", file=sys.stderr)
             return 1
-        print(f"Validated {len(papers)} papers; README.md is current.")
+        print(
+            f"Validated {len(papers)} accepted and {len(rejected)} rejected records; "
+            "README.md is current."
+        )
         return 0
 
     README_PATH.write_text(expected, encoding="utf-8")
-    print(f"Validated {len(papers)} papers and regenerated {README_PATH.name}.")
+    print(
+        f"Validated {len(papers)} accepted and {len(rejected)} rejected records "
+        f"and regenerated {README_PATH.name}."
+    )
     return 0
 
 

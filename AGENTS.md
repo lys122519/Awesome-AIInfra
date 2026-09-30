@@ -20,6 +20,8 @@ Awesome-AIInfra is the reviewed knowledge base paired with [AIInfra-paper-update
 5. Check both accepted and rejected datasets for duplicates.
 6. Set `reviewed: true` and `reviewed_at` only after relevance, metadata, and category review.
 7. Add changes through a pull request; do not directly import an entire tracker cache.
+8. `scripts/screen_candidates.py` only recommends decisions. Inspect its output before marking records reviewed.
+9. Apply an inspected batch with `scripts/apply_screening.py`; it rejects conflicts between accepted and rejected datasets and safely skips decisions that were already applied.
 
 ## Validation
 
