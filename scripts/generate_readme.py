@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -104,28 +105,46 @@ def load_and_validate_rejected(
     return rejected
 
 
+def _venue_year_anchor(venue: str, year: int) -> str:
+    venue_slug = re.sub(r"[^a-z0-9]+", "-", venue.casefold()).strip("-")
+    return f"{venue_slug}-{year}"
+
+
 def render_papers(papers: list[dict]) -> str:
     grouped: dict[str, dict[int, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for paper in papers:
-        grouped[paper["category"]][paper["year"]].append(paper)
+        grouped[str(paper["venue"])][paper["year"]].append(paper)
 
-    lines = []
-    for category in CATEGORY_ORDER:
-        if category not in grouped:
-            continue
-        lines.extend([f"### {category}", ""])
-        for year in sorted(grouped[category], reverse=True):
-            lines.extend([f"#### {year}", ""])
+    venues = sorted(grouped, key=str.casefold)
+    lines = ["### Quick Links by Venue and Year", ""]
+    for venue in venues:
+        links = [
+            f"[{venue} {year}](#{_venue_year_anchor(venue, year)})"
+            for year in sorted(grouped[venue], reverse=True)
+        ]
+        lines.append("- " + " · ".join(links))
+
+    lines.append("")
+    for venue in venues:
+        lines.extend([f"### {venue}", ""])
+        for year in sorted(grouped[venue], reverse=True):
+            lines.extend(
+                [
+                    f'<a id="{_venue_year_anchor(venue, year)}"></a>',
+                    f"#### {year}",
+                    "",
+                ]
+            )
             year_papers = sorted(
-                grouped[category][year],
-                key=lambda item: (str(item["venue"]).casefold(), str(item["title"]).casefold()),
+                grouped[venue][year],
+                key=lambda item: str(item["title"]).casefold(),
             )
             for paper in year_papers:
                 links = [f"[PUB]({paper['publication']})"]
                 if paper.get("code"):
                     links.append(f"[CODE]({paper['code']})")
                 lines.append(
-                    f"- **{paper['title']}** — {paper['venue']}. " + " ".join(links)
+                    f"- **{paper['title']}** — {paper['category']}. " + " ".join(links)
                 )
             lines.append("")
     return "\n".join(lines).rstrip() + "\n"

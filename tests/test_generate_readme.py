@@ -38,6 +38,49 @@ class GenerateReadmeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate publication URL"):
             validate_papers(papers)
 
+    def test_render_groups_by_venue_and_year_and_sorts_titles(self):
+        papers = [
+            {
+                "title": "Zebra Serving",
+                "year": 2026,
+                "venue": "OSDI",
+                "category": "Inference and Serving",
+                "publication": "https://example.com/zebra",
+            },
+            {
+                "title": "Alpha Training",
+                "year": 2026,
+                "venue": "OSDI",
+                "category": "Training Systems",
+                "publication": "https://example.com/alpha",
+            },
+            {
+                "title": "Earlier Paper",
+                "year": 2025,
+                "venue": "OSDI",
+                "category": "Training Systems",
+                "publication": "https://example.com/earlier",
+            },
+            {
+                "title": "Middle Paper",
+                "year": 2026,
+                "venue": "MLSys",
+                "category": "Training Systems",
+                "publication": "https://example.com/middle",
+            },
+        ]
+
+        rendered = render_papers(papers)
+
+        self.assertIn("[OSDI 2026](#osdi-2026)", rendered)
+        self.assertIn('<a id="osdi-2026"></a>', rendered)
+        self.assertLess(rendered.index("\n### MLSys\n"), rendered.index("\n### OSDI\n"))
+        osdi_2026 = rendered.split('<a id="osdi-2026"></a>', 1)[1].split(
+            '<a id="osdi-2025"></a>', 1
+        )[0]
+        self.assertLess(osdi_2026.index("Alpha Training"), osdi_2026.index("Zebra Serving"))
+        self.assertIn("— Training Systems.", osdi_2026)
+
     def test_screening_accepts_systems_work_and_rejects_ambiguous_inference(self):
         self.assertEqual(
             screen_candidate({"title": "Fast LLM Serving with KV Cache Scheduling", "venue": "ACL"})[0],
