@@ -1,0 +1,36 @@
+name: Suggest a paper
+description: Suggest an AI Infrastructure paper for review
+title: "[Paper]: "
+labels:
+  - paper-candidate
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: publication
+    attributes:
+      label: Publication URL
+      description: Prefer a DOI, publisher, OpenReview, or official conference link.
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official code repository
+  - type: textarea
+    id: relevance
+    attributes:
+      label: AI Infrastructure relevance
+      description: Explain the systems contribution in a few sentences.
+    validations:
+      required: true

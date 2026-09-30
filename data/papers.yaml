@@ -1,0 +1,648 @@
+papers:
+- title: 'AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving'
+  year: 2026
+  venue: EuroSys
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3767295.3769345
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Arena: Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design'
+  year: 2026
+  venue: EuroSys
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3767295.3803571
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Bridging the GPU Utilization Gap: Predictive Multi-Dimensional Resource Scheduling for AI Workloads'
+  year: 2026
+  venue: EuroSys
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3767295.3803579
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Handling Network Faults in Distributed AI Training: Failover is Now an Option'
+  year: 2026
+  venue: EuroSys
+  category: Observability, Reliability and Benchmarking
+  publication: https://doi.org/10.1145/3767295.3769322
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters'
+  year: 2026
+  venue: EuroSys
+  category: Training Systems
+  publication: https://doi.org/10.1145/3767295.3803603
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: High Throughput and Low Latency LLM Serving via Adaptive KV Caching
+  year: 2026
+  venue: EuroSys
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3767295.3803570
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production'
+  year: 2026
+  venue: EuroSys
+  category: Distributed Communication and Networking
+  publication: https://doi.org/10.1145/3767295.3769325
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Multipath Collective Communication Beyond Scale-up Networks in GPU Clouds
+  year: 2026
+  venue: EuroSys
+  category: Distributed Communication and Networking
+  publication: https://doi.org/10.1145/3767295.3769330
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Pyramid: A Secure, Resource-Efficient, and Pluggable Kubernetes for Multi-Tenancy'
+  year: 2026
+  venue: EuroSys
+  category: Cloud and Kubernetes
+  publication: https://doi.org/10.1145/3767295.3769324
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Suika: Efficient and High-quality Re-scheduling of 3D-parallelized LLM Training Jobs in Shared Clusters'
+  year: 2026
+  venue: EuroSys
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3767295.3803623
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Agentix: An Efficient Serving Engine for LLM Agents as General Programs'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/luo
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training'
+  year: 2026
+  venue: NSDI
+  category: Observability, Reliability and Benchmarking
+  publication: https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA'
+  year: 2026
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi26/presentation/shen
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale'
+  year: 2026
+  venue: NSDI
+  category: Training Systems
+  publication: https://www.usenix.org/conference/nsdi26/presentation/li-shengwei
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/liu-yuhan
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'FAST: An Efficient Scheduler for All-to-All GPU Communication'
+  year: 2026
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi26/presentation/lei-yiran
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale'
+  year: 2026
+  venue: NSDI
+  category: Observability, Reliability and Benchmarking
+  publication: https://www.usenix.org/conference/nsdi26/presentation/cui
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/oliaro
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics'
+  year: 2026
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters'
+  year: 2026
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi26/presentation/hei
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds'
+  year: 2026
+  venue: NSDI
+  category: Cloud and Kubernetes
+  publication: https://www.usenix.org/conference/nsdi26/presentation/lou
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'JITServe: SLO-aware LLM Serving with Imprecise Request Information'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/zhang-wei
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads'
+  year: 2026
+  venue: NSDI
+  category: Scheduling and Resource Management
+  publication: https://www.usenix.org/conference/nsdi26/presentation/ruan-libra
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/fang
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/alibaba/ServeGen
+- title: 'SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling'
+  year: 2026
+  venue: NSDI
+  category: Training Systems
+  publication: https://www.usenix.org/conference/nsdi26/presentation/skiadopoulos
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems'
+  year: 2026
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi26/presentation/agarwal
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression'
+  year: 2026
+  venue: NSDI
+  category: Storage and Data Pipelines
+  publication: https://www.usenix.org/conference/nsdi26/presentation/wang-zirui
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion'
+  year: 2025
+  venue: EuroSys
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3689031.3696098
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/LMCache/LMCache
+- title: Comprehensive Deadlock Prevention for GPU Collective Communication
+  year: 2025
+  venue: EuroSys
+  category: Distributed Communication and Networking
+  publication: https://doi.org/10.1145/3689031.3717466
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization'
+  year: 2025
+  venue: EuroSys
+  category: Training Systems
+  publication: https://doi.org/10.1145/3689031.3717461
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'SkyServe: Serving AI Models across Regions and Clouds with Spot Instances'
+  year: 2025
+  venue: EuroSys
+  category: Cloud and Kubernetes
+  publication: https://doi.org/10.1145/3689031.3717459
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Balancing Pipeline Parallelism with Vocabulary Parallelism
+  year: 2025
+  venue: MLSys
+  category: Training Systems
+  publication: https://openreview.net/forum?id=nlRGXpglaO
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'COMET: Fine-grained Computation-communication Overlapping for Mixture-of-Experts'
+  year: 2025
+  venue: MLSys
+  category: Distributed Communication and Networking
+  publication: https://openreview.net/forum?id=fGgQS5VW09
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'DiffServe: Efficiently Serving Text-to-Image Diffusion Models with Query-Aware Model Scaling'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=1N3ShLfcTf
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=ax6j4R24FI
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/Qualcomm-AI-research/dynamic-sparsity
+- title: 'FastTree: Optimizing Attention Kernel and Runtime for Tree-Structured LLM Inference'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=BwvHcHZ3kJ
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=RXPofAsL8F
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'FlexInfer: Flexible LLM Inference with CPU Computations'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=sFNRNTduKO
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=KQ4pJFFqT1
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/mit-han-lab/omniserve
+- title: 'Lumos: Efficient Performance Modeling and Estimation for Large-scale LLM Training'
+  year: 2025
+  venue: MLSys
+  category: Training Systems
+  publication: https://openreview.net/forum?id=mwEOLauKI5
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=umgy9tWBLA
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'PipeFill: Using GPUs During Bubbles in Pipeline-parallel LLM Training'
+  year: 2025
+  venue: MLSys
+  category: Training Systems
+  publication: https://openreview.net/forum?id=650J0YFjnV
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=1FfmStySS1
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/mit-han-lab/omniserve
+- title: 'ReaL: Efficient RLHF Training of Large Language Models with Parameter Reallocation'
+  year: 2025
+  venue: MLSys
+  category: Training Systems
+  publication: https://openreview.net/forum?id=yLU1zRf95d
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/openpsi-project/ReaLHF
+- title: Rethinking Key-Value Cache Compression Techniques for Large Language Model Serving
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=ou0AsNbXVG
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=RuZ80yl71h
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Scaling Deep Learning Training with MPMD Pipeline Parallelism
+  year: 2025
+  venue: MLSys
+  category: Training Systems
+  publication: https://openreview.net/forum?id=U9oaDkwZs3
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Seesaw: High-throughput LLM Inference via Model Re-sharding'
+  year: 2025
+  venue: MLSys
+  category: Inference and Serving
+  publication: https://openreview.net/forum?id=YDksTjY3YY
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'SOLA: Optimizing SLO Attainment for Large Language Model Serving with State-Aware Scheduling'
+  year: 2025
+  venue: MLSys
+  category: Scheduling and Resource Management
+  publication: https://openreview.net/forum?id=ubIvpetAd6
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'ThunderServe: High-performance and Cost-efficient LLM Serving in Cloud Environments'
+  year: 2025
+  venue: MLSys
+  category: Cloud and Kubernetes
+  publication: https://openreview.net/forum?id=44PwmgOpAt
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer
+  year: 2025
+  venue: MLSys
+  category: Training Systems
+  publication: https://openreview.net/forum?id=NHwZ039A90
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models'
+  year: 2025
+  venue: MLSys
+  category: Efficient LLM Systems
+  publication: https://openreview.net/forum?id=rjQfX0YgDl
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Youmu: Efficient Columnar Data Pipeline for LLM Training'
+  year: 2025
+  venue: MLSys
+  category: Storage and Data Pipelines
+  publication: https://openreview.net/forum?id=I2LF8QHaua
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Accelerating Design Space Exploration for LLM Training Systems with Multi-experiment Parallel Simulation
+  year: 2025
+  venue: NSDI
+  category: Training Systems
+  publication: https://www.usenix.org/conference/nsdi25/presentation/gui
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'AutoCCL: Automated Collective Communication Tuning for Accelerating Distributed and Parallel DNN Training'
+  year: 2025
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi25/presentation/xu-guanbin
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Efficient Direct-Connect Topologies for Collective Communications
+  year: 2025
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi25/presentation/zhao-liangyu
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: GPU-Disaggregated Serving for Deep Learning Recommendation Models at Scale
+  year: 2025
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi25/presentation/yang
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters'
+  year: 2025
+  venue: NSDI
+  category: Training Systems
+  publication: https://www.usenix.org/conference/nsdi25/presentation/yao
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Minder: Faulty Machine Detection for Large-scale Distributed Model Training'
+  year: 2025
+  venue: NSDI
+  category: Observability, Reliability and Benchmarking
+  publication: https://www.usenix.org/conference/nsdi25/presentation/deng
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Mitigating Scalability Walls of RDMA-based Container Networks
+  year: 2025
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi25/presentation/liu-wei
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'ODRP: On-Demand Remote Paging with Programmable RDMA'
+  year: 2025
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi25/presentation/wang-zixuan
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads'
+  year: 2025
+  venue: NSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/nsdi25/presentation/khare
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: White-Boxing RDMA with Packet-Granular Software Control
+  year: 2025
+  venue: NSDI
+  category: Distributed Communication and Networking
+  publication: https://www.usenix.org/conference/nsdi25/presentation/zhao-chenxingyu
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization'
+  year: 2025
+  venue: OSDI
+  category: Efficient LLM Systems
+  publication: https://www.usenix.org/conference/osdi25/presentation/park-yeonhong
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'NanoFlow: Towards Optimal Large Language Model Serving Throughput'
+  year: 2025
+  venue: OSDI
+  category: Inference and Serving
+  publication: https://www.usenix.org/conference/osdi25/presentation/zhu-kan
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training'
+  year: 2025
+  venue: OSDI
+  category: Training Systems
+  publication: https://www.usenix.org/conference/osdi25/presentation/wang-zheng
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'ZEN: Empowering Distributed Training with Sparsity-driven Data Synchronization'
+  year: 2025
+  venue: OSDI
+  category: Training Systems
+  publication: https://www.usenix.org/conference/osdi25/presentation/wang-zhuang
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market'
+  year: 2025
+  venue: SOSP
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3731569.3764815
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference
+  year: 2025
+  venue: SOSP
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3731569.3764808
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism'
+  year: 2025
+  venue: SOSP
+  category: Training Systems
+  publication: https://doi.org/10.1145/3731569.3764849
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Device-Assisted Live Migration of RDMA Devices
+  year: 2025
+  venue: SOSP
+  category: Distributed Communication and Networking
+  publication: https://doi.org/10.1145/3731569.3764795
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'IC-Cache: Efficient Large Language Model Serving via In-context Caching'
+  year: 2025
+  venue: SOSP
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3731569.3764829
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Jenga: Effective Memory Management for Serving LLM with Heterogeneity'
+  year: 2025
+  venue: SOSP
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3731569.3764823
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling'
+  year: 2025
+  venue: SOSP
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3731569.3764798
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+  code: https://github.com/ChandlerGuan/mercury_artifact
+- title: 'Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training'
+  year: 2025
+  venue: SOSP
+  category: Observability, Reliability and Benchmarking
+  publication: https://doi.org/10.1145/3731569.3764848
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Pie: A Programmable Serving System for Emerging LLM Applications'
+  year: 2025
+  venue: SOSP
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3731569.3764814
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: Robust LLM Training Infrastructure at ByteDance
+  year: 2025
+  venue: SOSP
+  category: Training Systems
+  publication: https://doi.org/10.1145/3731569.3764838
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters'
+  year: 2025
+  venue: SOSP
+  category: Training Systems
+  publication: https://doi.org/10.1145/3731569.3764839
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
+- title: 'TrainVerify: Equivalence-Based Verification for Distributed LLM Training'
+  year: 2025
+  venue: SOSP
+  category: Observability, Reliability and Benchmarking
+  publication: https://doi.org/10.1145/3731569.3764850
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-09-30'
