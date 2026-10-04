@@ -650,6 +650,7 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 - **Nexus: Adaptive Upcycling to Efficiently Pretrain Mixture of Experts** — Training Systems. [PUB](https://doi.org/10.18653/v1/2025.findings-emnlp.1323)
 - **Offloaded Reasoning: Efficient Inference for Large Language Models via Modular Reasoning and Refinement** — Inference and Serving. [PUB](https://doi.org/10.18653/v1/2025.findings-emnlp.393)
 - **Position IDs Matter: An Enhanced Position Layout for Efficient Context Compression in Large Language Models** — Efficient LLM Systems. [PUB](https://doi.org/10.18653/v1/2025.findings-emnlp.962)
+- **QSpec: Speculative Decoding with Complementary Quantization Schemes** — Inference and Serving. [PUB](https://doi.org/10.18653/v1/2025.emnlp-main.240) [CODE](https://github.com/hku-netexplo-lab/QSpec)
 - **RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing** — Efficient LLM Systems. [PUB](https://doi.org/10.18653/v1/2025.findings-emnlp.787)
 - **Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling** — Inference and Serving. [PUB](https://doi.org/10.18653/v1/2025.emnlp-main.1638)
 - **Recall with Reasoning: Chain-of-Thought Distillation for Mamba's Long-Context Memory and Extrapolation** — Accelerators, Architecture and Memory. [PUB](https://doi.org/10.18653/v1/2025.emnlp-main.235)

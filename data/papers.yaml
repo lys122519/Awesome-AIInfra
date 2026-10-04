@@ -15697,3 +15697,14 @@ papers:
   reviewed_at: '2026-09-30'
   review_method: ai-infra-title-policy-v1
   screening_reason: AI Infra candidate from a core systems venue
+- title: 'QSpec: Speculative Decoding with Complementary Quantization Schemes'
+  year: 2025
+  venue: EMNLP
+  category: Inference and Serving
+  publication: https://doi.org/10.18653/v1/2025.emnlp-main.240
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/hku-netexplo-lab/QSpec
+  reviewed: true
+  reviewed_at: '2026-10-04'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
