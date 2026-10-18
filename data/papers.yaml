@@ -15708,3 +15708,1059 @@ papers:
   reviewed_at: '2026-10-04'
   review_method: automated-ai-infra-title-policy-v1
   screening_reason: title states a direct AI infrastructure contribution
+- title: Accelerating Streaming Video Large Language Models via Hierarchical Token Compression
+  year: 2026
+  venue: CVPR
+  category: Efficient LLM Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Accelerating_Streaming_Video_Large_Language_Models_via_Hierarchical_Token_Compression_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Hybrid Token Compression for Vision-Language Models
+  year: 2026
+  venue: CVPR
+  category: Efficient LLM Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Hybrid_Token_Compression_for_Vision-Language_Models_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'LS-ViT: Least-Squares Hessian Based Block Reconstruction for Low-Bit Post-Training Quantization of Vision Transformers'
+  year: 2026
+  venue: CVPR
+  category: Training Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Hwang_LS-ViT_Least-Squares_Hessian_Based_Block_Reconstruction_for_Low-Bit_Post-Training_Quantization_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models'
+  year: 2026
+  venue: CVPR
+  category: Efficient LLM Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Tao_OmniZip_Audio-Guided_Dynamic_Token_Compression_for_Fast_Omnimodal_Large_Language_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'PIX-TAB: Efficient PIXel-Precise TABle Structure Recognition Approach with Speculative Decoding and Region-Based
+    Image Segmentation'
+  year: 2026
+  venue: CVPR
+  category: Inference and Serving
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Zaytsev_PIX-TAB_Efficient_PIXel-Precise_TABle_Structure_Recognition_Approach_with_Speculative_Decoding_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models
+    Quantization'
+  year: 2026
+  venue: CVPR
+  category: Efficient LLM Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Quant_Experts_Token-aware_Adaptive_Error_Reconstruction_with_Mixture_of_Experts_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models'
+  year: 2026
+  venue: CVPR
+  category: Training Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_QuantVLA_Scale-Calibrated_Post-Training_Quantization_for_Vision-Language-Action_Models_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach'
+  year: 2026
+  venue: CVPR
+  category: Inference and Serving
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Revisiting_Multimodal_KV_Cache_Compression_A_Frequency-Domain-Guided_Outlier-KV-Aware_Approach_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction'
+  year: 2026
+  venue: CVPR
+  category: Training Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Wang_tttLRM_Test-Time_Training_for_Long_Context_and_Autoregressive_3D_Reconstruction_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference'
+  year: 2026
+  venue: CVPR
+  category: Inference and Serving
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Liu_VecAttention_Vector-wise_Sparse_Attention_for_Accelerating_Long_Context_Inference_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'VLM-PTQ: Efficient Post-Training Quantization for Large Vision-Language Models'
+  year: 2026
+  venue: CVPR
+  category: Training Systems
+  publication: https://openaccess.thecvf.com/content/CVPR2026/html/Deng_VLM-PTQ_Efficient_Post-Training_Quantization_for_Large_Vision-Language_Models_CVPR_2026_paper.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Continuous Speculative Decoding for Autoregressive Image Generation
+  year: 2026
+  venue: ECCV
+  category: Inference and Serving
+  publication: https://doi.org/10.1007/978-3-032-37235-2_32
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'CURE: Cumulative Knowledge Reuse for Efficient Device-Server Hybrid Inference in Vision-Language Models'
+  year: 2026
+  venue: ECCV
+  category: Inference and Serving
+  publication: https://doi.org/10.1007/978-3-032-37627-5_21
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Fourier Compressor: Frequency-Domain Visual Token Compression for Vision-Language Models'
+  year: 2026
+  venue: ECCV
+  category: Efficient LLM Systems
+  publication: https://doi.org/10.1007/978-3-032-37035-8_16
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding'
+  year: 2026
+  venue: ECCV
+  category: Inference and Serving
+  publication: https://doi.org/10.1007/978-3-032-37362-5_32
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/whlscut/HSD
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'KATANA: Knowledge-Aligned Topology-Aware Neural Agents for RL-Driven Vision-Language Model Compression'
+  year: 2026
+  venue: ECCV
+  category: Efficient LLM Systems
+  publication: https://doi.org/10.1007/978-3-032-37556-8_34
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'LISA: Locality-Informed Speculative Decoding for Accelerating Autoregressive Image Generation'
+  year: 2026
+  venue: ECCV
+  category: Inference and Serving
+  publication: https://doi.org/10.1007/978-3-032-37255-0_20
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference'
+  year: 2026
+  venue: ECCV
+  category: Inference and Serving
+  publication: https://doi.org/10.1007/978-3-032-37464-6_31
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'VLZip: Unified Visual and Textual Compression for Interleaved Long-Context Modeling'
+  year: 2026
+  venue: ECCV
+  category: Efficient LLM Systems
+  publication: https://doi.org/10.1007/978-3-032-37550-6_11
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/ShareLab-SII/VLZip
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/0c0d84e06a860e20ccd2907bff2b6339-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Attention Is All You Need for KV Cache in Diffusion LLMs
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/3afaa2102fb8ea44cbadc13e45bba718-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/15cc66a412c9fcb0c41050904da4afa9-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/478b06f60662d3cdc1d4f15d4587173a-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'CAR-LoRA: Training Compression-Aware and Robust LoRA Adapters for Evolving LLMs'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/72491c8fd75d85b4b5adf561a15bcd2c-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/55f5aa8d997a8071d0651e0009ec49a2-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Critical attention scaling in long-context transformers
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/8b08bbf8b420faa6eeb4020720582ec7-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/47a89cb212e0607d773e6d2b380e1131-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'DiffAdapt: Difficulty-Adaptive Reasoning for Token-Efficient LLM Inference'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/353d4deedc4aac78b24924c485cdb4a3-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'DualMap: Enabling Both Cache Affinity and Load Balancing for Distributed LLM Serving'
+  year: 2026
+  venue: ICLR
+  category: Scheduling and Resource Management
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/475f7a3a807cee549684e367d1fa13a0-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'DVD-Quant: Data-free Video Diffusion Transformers Quantization'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/3bd28dd5cc4e15f9e019da13cc0c4844-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/lhxcs/DVD-Quant
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/6cdd4ce9330025967dd1ed0bed3010f5-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/TianyiWu233/DYNAMIC-DLLM
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'DynamicInfer: Runtime-Aware Sparse Offloading for LLMs Inference on a Consumer-Grade GPU'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/0b9762d1f15c68057275fa18d384c1a8-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'EntropyLong: Effective Long-Context Training via Predictive Uncertainty'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/07e278a120830b10aae20cc600a8c07b-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/6fc63067ef32cfda806afbd8328ab27e-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/5d8d4e6061c3ba96c240b7fa1ae3471d-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/61674667d642ae52f6bb281bea90ee29-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/yedaotian9/GRPO_speculative
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/5137e40ee586c4f1fc3615cf8cee4f87-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Ghost in the Cloud: Your Geo-Distributed Large Language Models Training is Easily Manipulated'
+  year: 2026
+  venue: ICLR
+  category: Cloud and Kubernetes
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/2bdc2267c3d7d01523e2e17ac0a754f3-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Guided Speculative Inference for Efficient Test-Time Alignment of LLMs
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/79cab89b43ac21c6941ad9735df95d30-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Improving Block-Wise LLM Quantization by 4-bit Block-Wise Optimal Float (BOF4): Analysis and Variations'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/0bb9b8b55b0fd61c7788a8a4ddbd3ddd-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7f9923be721e32592466d9a49c6364e1-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f868c3e0050f13ec82d3694df531de1-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: KV Cache Transform Coding for Compact Storage in LLM Inference
+  year: 2026
+  venue: ICLR
+  category: Storage and Data Pipelines
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Learning To Draft: Adaptive Speculative Decoding with Reinforcement Learning'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/34345e243156da67605d4b63d71c8d98-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Leveraging Pretrained Knowledge at Inference Time: LoRA-Gated Contrastive Decoding for Multilingual Factual Language
+    Generation in Adapted LLMs'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/860e5b214c842eaedaa6b4026ee91aac-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism'
+  year: 2026
+  venue: ICLR
+  category: Observability, Reliability and Benchmarking
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Look Back to Reason Forward: Revisitable Memory for Long-Context LLM Agents'
+  year: 2026
+  venue: ICLR
+  category: Accelerators, Architecture and Memory
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7e0dc9ccba0f1333be13a3f9dc2b3138-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/746222c1871d3fa7a94bdacabc34e26c-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/6b241c515433caae3051266668d808b7-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent'
+  year: 2026
+  venue: ICLR
+  category: Accelerators, Architecture and Memory
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/4264ee4376776907c0b87ed70b959585-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Metis: Training LLMs with FP4 Quantization'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7740c0dc79dc282a29384ceb9d3b2408-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/431d53d513461ff155d5bc8faa9a440c-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'NLI : Non-uniform Linear Interpolation Approximation of Nonlinear Operations for Efficient LLMs Inference'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/812c6e27edecd771cc494eb4a06e8927-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Not-a-Bandit: Provably No-Regret Drafter Selection in Speculative Decoding for LLMs'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/20563b8508ba42e1b688d922e926ee26-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'On-the-Fly Adaptation to Quantization: Configuration-Aware LoRA for Efficient Fine-Tuning of Quantized LLMs'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/1687466683649e8bdcdec0e3f5c8de64-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'ParaRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/57d8ebf4c2f050a6485f370d47656a9e-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7caf9d251b546bc78078b35b4a6f3b7e-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'PERK: Long-Context Reasoning as Parameter-Efficient Test-Time Learning'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/1179c561a4efc77fbfda76aa1addce33-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Point-MoE: Large-Scale Multi-Dataset Training with Mixture-of-Experts for 3D Semantic Segmentation'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/2f7001684feb23ca6569352eda963f39-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/6e73c39cc428c7d264d9820319f31e79-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/372dee09e0c3c17df69d990b4735adac-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/griver/Q-RAG
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models'
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/805da7ef883245cb35e012cc179a5f6f-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Reconstructing KV Caches with Cross-Layer Fusion for Enhanced Transformers
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/8c22e5e918198702765ecff4b20d0a90-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/8be9c134bb193d8bd3827d4df8488228-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/an-yongqi/rest-kv
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Rethinking Residual Errors in Compensation-based LLM Quantization
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/087b346ca4d6dd6fcd0663ff6c9a6b69-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/list0830/ResComp
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers'
+  year: 2026
+  venue: ICLR
+  category: Accelerators, Architecture and Memory
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ed4530426783ad11be9f61728d4ad88-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Routing Manifold Alignment Improves Generalization of Mixture-of-Experts LLMs
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/249b8d8f41970822651435629e68a6e1-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'SERQ: Saliency-Aware Low-Rank Error Reconstruction for LLM Quantization'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ca380c5fe9f174a71a230478741169f-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/acalabys/SERQ
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Smooth Reading: Bridging the Gap of Recurrent LLM to Self-Attention LLM on Long-Context Understanding'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/469c396a192043e3d70c04bdb3e5a532-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'SpareTrain: Fault-Tolerant LLM Training via Low-Cost Dual Modular Redundancy'
+  year: 2026
+  venue: ICLR
+  category: Observability, Reliability and Benchmarking
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/584c609e4d9822eafa0304e8757ed8c2-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism'
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/67089958e98b243d5cc1881ad60418b8-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Speculative Speculative Decoding
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b96f01343ff10150e6719eb163e1536-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Tequila: Trapping-free Ternary Quantization for Large Language Models'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/Tencent/AngelSlim
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Towards Greater Leverage: Scaling Laws for Efficient Mixture-of-Experts Language Models'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/32b640528f5b67975562210f00c131ed-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Towards Quantization-Aware Training for Ultra-Low-Bit Reasoning LLMs
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/209423f076b6479ab3a4f45886e30306-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Training Large Language Models To Reason In Parallel With Global Forking Tokens
+  year: 2026
+  venue: ICLR
+  category: Training Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/88af3540325dd0b70617a9ab605f294d-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Understanding Cross-layer Contributions to Mixture-of-Experts Routing in LLMs
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/3efdd3cd3d70da09ec6ed3b3d17d2fd5-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/370fa2e691f57eb319bc263a07dad4a5-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/enyac-group/UniQL
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Universal Model Routing for Efficient LLM Inference
+  year: 2026
+  venue: ICLR
+  category: Inference and Serving
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/113ae3a9762ca2168f860a8501d6ae25-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models'
+  year: 2026
+  venue: ICLR
+  category: Efficient LLM Systems
+  publication: https://proceedings.iclr.cc/paper_files/paper/2026/hash/665654759cdf2114c0cbe2b8e501e00e-Abstract-Conference.html
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques'
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Inference and Serving
+  publication: https://doi.org/10.24963/ijcai.2026/873
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Budget-Aware LLM Quantization and Low-Rank Correction via Information-Guided Subspace Matrices
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Efficient LLM Systems
+  publication: https://doi.org/10.24963/ijcai.2026/475
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Interaction Effects in Hybrid Compression of Small Language Models
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Efficient LLM Systems
+  publication: https://doi.org/10.24963/ijcai.2026/631
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: Low-Latency Real-Time Audio Game Commentary System via LLM-Based Parallel Text Generation
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Efficient LLM Systems
+  publication: https://doi.org/10.24963/ijcai.2026/972
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'M-LoRA: Efficient Serving for Concurrent LoRA Adapters with Memory-Aware Speculative Scheduler on Single GPU'
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.24963/ijcai.2026/502
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'QFlash: Bridging Quantization and Memory Efficiency in Vision Transformer Attention'
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Accelerators, Architecture and Memory
+  publication: https://doi.org/10.24963/ijcai.2026/167
+  source: AIInfra-paper-update-tracker
+  code: https://github.com/EfficientCompLab/qflash
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'SplitScaling: Adaptive Scaling for Disaggregated LLM Serving Against Traffic Bursts via DRL'
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Inference and Serving
+  publication: https://doi.org/10.24963/ijcai.2026/568
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'StreamTimer: Efficient Inference for Long-Context Time Series Transformers'
+  year: 2026
+  venue: IJCAI/ECAI
+  category: Inference and Serving
+  publication: https://doi.org/10.24963/ijcai.2026/327
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Aquavit: Ascending Quantization for Communication-Efficient Vast-Scale Distributed Training'
+  year: 2026
+  venue: KDD
+  category: Distributed Communication and Networking
+  publication: https://doi.org/10.1145/3770855.3818083
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'C2KV: Compressed and Composable KV Cache Reuse for Efficient LLM Inference'
+  year: 2026
+  venue: KDD
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3770855.3817715
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Deconstructing Staleness: Mitigating Training-Serving Skew in Industrial-scale Online Learning Models'
+  year: 2026
+  venue: KDD
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3770855.3818354
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'EPTS: Elastic Post-Training Sparsity for Efficient Large Language Model Compression'
+  year: 2026
+  venue: KDD
+  category: Training Systems
+  publication: https://doi.org/10.1145/3770855.3817817
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'G-STAR: Graph-based Scheduling with Trace-driven Adaptive Routing for Industrial LLM-based Multi-Agent Systems'
+  year: 2026
+  venue: KDD
+  category: Scheduling and Resource Management
+  publication: https://doi.org/10.1145/3770855.3818421
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'HierKV: A Coarse-to-Fine Approach with Vision-Aware Banzhaf Values for Multi-Modal KV Cache Compression'
+  year: 2026
+  venue: KDD
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3770855.3817663
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: How Much Reasoning Do Retrieval-Augmented Models Add beyond LLMs? A Benchmarking Framework for Multi-Hop Inference
+    over Hybrid Knowledge
+  year: 2026
+  venue: KDD
+  category: Observability, Reliability and Benchmarking
+  publication: https://doi.org/10.1145/3770855.3817481
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'NodeBits: A Plug-and-Play Framework for Accelerating Graph Inference by Post-Hoc Binary Quantization'
+  year: 2026
+  venue: KDD
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3770855.3817681
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'OrionInfer: Low-Overhead Parallelism Switching and Live Migration for Efficient LLM Serving'
+  year: 2026
+  venue: KDD
+  category: Inference and Serving
+  publication: https://doi.org/10.1145/3770855.3817626
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'SciHorizon-Gene: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding'
+  year: 2026
+  venue: KDD
+  category: Observability, Reliability and Benchmarking
+  publication: https://doi.org/10.1145/3770855.3817489
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Teaching LLMs to Write System Kernels for AI Accelerators: Post-Training, Reasoning, and Agentic Optimization'
+  year: 2026
+  venue: KDD
+  category: Training Systems
+  publication: https://doi.org/10.1145/3770855.3816468
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'Task-KV: Task-Aware KV Cache Optimization via Semantic Differentiation of Attention Heads'
+  year: 2026
+  venue: TPAMI
+  category: Inference and Serving
+  publication: https://doi.org/10.1109/TPAMI.2026.3708708
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: title states a direct AI infrastructure contribution
+- title: 'FairCache: Demystifying Cache-Induced Unfairness in Multi-Tenant Large Language Model Serving'
+  year: 2026
+  venue: TPDS
+  category: Cloud and Kubernetes
+  publication: https://doi.org/10.1109/TPDS.2026.3729988
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: AI Infra candidate from a core systems venue
+- title: 'Mix-or-Split: Latency-Aware Scheduling for Edge-Cloud LLM Inference'
+  year: 2026
+  venue: TPDS
+  category: Cloud and Kubernetes
+  publication: https://doi.org/10.1109/TPDS.2026.3729256
+  source: AIInfra-paper-update-tracker
+  reviewed: true
+  reviewed_at: '2026-10-18'
+  review_method: automated-ai-infra-title-policy-v1
+  screening_reason: AI Infra candidate from a core systems venue

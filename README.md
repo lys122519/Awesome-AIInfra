@@ -35,17 +35,18 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 - [ACL 2026](#acl-2026) · [ACL 2025](#acl-2025) · [ACL 2024](#acl-2024) · [ACL 2023](#acl-2023)
 - [ASPLOS 2026](#asplos-2026) · [ASPLOS 2025](#asplos-2025) · [ASPLOS 2024](#asplos-2024) · [ASPLOS 2023](#asplos-2023)
 - [COLING 2025](#coling-2025) · [COLING 2024](#coling-2024)
-- [CVPR 2025](#cvpr-2025) · [CVPR 2024](#cvpr-2024) · [CVPR 2023](#cvpr-2023)
+- [CVPR 2026](#cvpr-2026) · [CVPR 2025](#cvpr-2025) · [CVPR 2024](#cvpr-2024) · [CVPR 2023](#cvpr-2023)
 - [EACL 2026](#eacl-2026) · [EACL 2024](#eacl-2024) · [EACL 2023](#eacl-2023)
-- [ECCV 2024](#eccv-2024)
+- [ECCV 2026](#eccv-2026) · [ECCV 2024](#eccv-2024)
 - [EMNLP 2025](#emnlp-2025) · [EMNLP 2024](#emnlp-2024) · [EMNLP 2023](#emnlp-2023)
 - [EuroSys 2026](#eurosys-2026) · [EuroSys 2025](#eurosys-2025) · [EuroSys 2024](#eurosys-2024) · [EuroSys 2023](#eurosys-2023)
 - [HPCA 2026](#hpca-2026) · [HPCA 2025](#hpca-2025) · [HPCA 2024](#hpca-2024) · [HPCA 2023](#hpca-2023)
 - [HPDC 2026](#hpdc-2026) · [HPDC 2025](#hpdc-2025) · [HPDC 2024](#hpdc-2024) · [HPDC 2023](#hpdc-2023)
 - [ICCV 2025](#iccv-2025) · [ICCV 2023](#iccv-2023)
-- [ICLR 2025](#iclr-2025) · [ICLR 2024](#iclr-2024) · [ICLR 2023](#iclr-2023)
+- [ICLR 2026](#iclr-2026) · [ICLR 2025](#iclr-2025) · [ICLR 2024](#iclr-2024) · [ICLR 2023](#iclr-2023)
 - [ICML 2025](#icml-2025) · [ICML 2024](#icml-2024) · [ICML 2023](#icml-2023)
 - [IJCAI 2025](#ijcai-2025) · [IJCAI 2024](#ijcai-2024) · [IJCAI 2023](#ijcai-2023)
+- [IJCAI/ECAI 2026](#ijcai-ecai-2026)
 - [ISCA 2026](#isca-2026) · [ISCA 2025](#isca-2025) · [ISCA 2024](#isca-2024) · [ISCA 2023](#isca-2023)
 - [JMLR 2024](#jmlr-2024)
 - [KDD 2026](#kdd-2026) · [KDD 2025](#kdd-2025) · [KDD 2024](#kdd-2024)
@@ -526,6 +527,21 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 
 ### CVPR
 
+<a id="cvpr-2026"></a>
+#### 2026
+
+- **Accelerating Streaming Video Large Language Models via Hierarchical Token Compression** — Efficient LLM Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Accelerating_Streaming_Video_Large_Language_Models_via_Hierarchical_Token_Compression_CVPR_2026_paper.html)
+- **Hybrid Token Compression for Vision-Language Models** — Efficient LLM Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Hybrid_Token_Compression_for_Vision-Language_Models_CVPR_2026_paper.html)
+- **LS-ViT: Least-Squares Hessian Based Block Reconstruction for Low-Bit Post-Training Quantization of Vision Transformers** — Training Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Hwang_LS-ViT_Least-Squares_Hessian_Based_Block_Reconstruction_for_Low-Bit_Post-Training_Quantization_CVPR_2026_paper.html)
+- **OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models** — Efficient LLM Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Tao_OmniZip_Audio-Guided_Dynamic_Token_Compression_for_Fast_Omnimodal_Large_Language_CVPR_2026_paper.html)
+- **PIX-TAB: Efficient PIXel-Precise TABle Structure Recognition Approach with Speculative Decoding and Region-Based Image Segmentation** — Inference and Serving. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Zaytsev_PIX-TAB_Efficient_PIXel-Precise_TABle_Structure_Recognition_Approach_with_Speculative_Decoding_CVPR_2026_paper.html)
+- **Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization** — Efficient LLM Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Quant_Experts_Token-aware_Adaptive_Error_Reconstruction_with_Mixture_of_Experts_CVPR_2026_paper.html)
+- **QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models** — Training Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_QuantVLA_Scale-Calibrated_Post-Training_Quantization_for_Vision-Language-Action_Models_CVPR_2026_paper.html)
+- **Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach** — Inference and Serving. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Revisiting_Multimodal_KV_Cache_Compression_A_Frequency-Domain-Guided_Outlier-KV-Aware_Approach_CVPR_2026_paper.html)
+- **tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction** — Training Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_tttLRM_Test-Time_Training_for_Long_Context_and_Autoregressive_3D_Reconstruction_CVPR_2026_paper.html)
+- **VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference** — Inference and Serving. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_VecAttention_Vector-wise_Sparse_Attention_for_Accelerating_Long_Context_Inference_CVPR_2026_paper.html)
+- **VLM-PTQ: Efficient Post-Training Quantization for Large Vision-Language Models** — Training Systems. [PUB](https://openaccess.thecvf.com/content/CVPR2026/html/Deng_VLM-PTQ_Efficient_Post-Training_Quantization_for_Large_Vision-Language_Models_CVPR_2026_paper.html)
+
 <a id="cvpr-2025"></a>
 #### 2025
 
@@ -592,6 +608,18 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 - **Teacher Intervention: Improving Convergence of Quantization Aware Training for Ultra-Low Precision Transformers** — Training Systems. [PUB](https://doi.org/10.18653/v1/2023.eacl-main.64)
 
 ### ECCV
+
+<a id="eccv-2026"></a>
+#### 2026
+
+- **Continuous Speculative Decoding for Autoregressive Image Generation** — Inference and Serving. [PUB](https://doi.org/10.1007/978-3-032-37235-2_32)
+- **CURE: Cumulative Knowledge Reuse for Efficient Device-Server Hybrid Inference in Vision-Language Models** — Inference and Serving. [PUB](https://doi.org/10.1007/978-3-032-37627-5_21)
+- **Fourier Compressor: Frequency-Domain Visual Token Compression for Vision-Language Models** — Efficient LLM Systems. [PUB](https://doi.org/10.1007/978-3-032-37035-8_16)
+- **HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding** — Inference and Serving. [PUB](https://doi.org/10.1007/978-3-032-37362-5_32) [CODE](https://github.com/whlscut/HSD)
+- **KATANA: Knowledge-Aligned Topology-Aware Neural Agents for RL-Driven Vision-Language Model Compression** — Efficient LLM Systems. [PUB](https://doi.org/10.1007/978-3-032-37556-8_34)
+- **LISA: Locality-Informed Speculative Decoding for Accelerating Autoregressive Image Generation** — Inference and Serving. [PUB](https://doi.org/10.1007/978-3-032-37255-0_20)
+- **PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference** — Inference and Serving. [PUB](https://doi.org/10.1007/978-3-032-37464-6_31)
+- **VLZip: Unified Visual and Textual Compression for Interleaved Long-Context Modeling** — Efficient LLM Systems. [PUB](https://doi.org/10.1007/978-3-032-37550-6_11) [CODE](https://github.com/ShareLab-SII/VLZip)
 
 <a id="eccv-2024"></a>
 #### 2024
@@ -934,6 +962,73 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 
 ### ICLR
 
+<a id="iclr-2026"></a>
+#### 2026
+
+- **AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0c0d84e06a860e20ccd2907bff2b6339-Abstract-Conference.html)
+- **Attention Is All You Need for KV Cache in Diffusion LLMs** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3afaa2102fb8ea44cbadc13e45bba718-Abstract-Conference.html)
+- **Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/15cc66a412c9fcb0c41050904da4afa9-Abstract-Conference.html)
+- **Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/478b06f60662d3cdc1d4f15d4587173a-Abstract-Conference.html)
+- **CAR-LoRA: Training Compression-Aware and Robust LoRA Adapters for Evolving LLMs** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72491c8fd75d85b4b5adf561a15bcd2c-Abstract-Conference.html)
+- **Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55f5aa8d997a8071d0651e0009ec49a2-Abstract-Conference.html)
+- **Critical attention scaling in long-context transformers** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8b08bbf8b420faa6eeb4020720582ec7-Abstract-Conference.html)
+- **DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/47a89cb212e0607d773e6d2b380e1131-Abstract-Conference.html)
+- **DiffAdapt: Difficulty-Adaptive Reasoning for Token-Efficient LLM Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/353d4deedc4aac78b24924c485cdb4a3-Abstract-Conference.html)
+- **DualMap: Enabling Both Cache Affinity and Load Balancing for Distributed LLM Serving** — Scheduling and Resource Management. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/475f7a3a807cee549684e367d1fa13a0-Abstract-Conference.html)
+- **DVD-Quant: Data-free Video Diffusion Transformers Quantization** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3bd28dd5cc4e15f9e019da13cc0c4844-Abstract-Conference.html) [CODE](https://github.com/lhxcs/DVD-Quant)
+- **Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6cdd4ce9330025967dd1ed0bed3010f5-Abstract-Conference.html) [CODE](https://github.com/TianyiWu233/DYNAMIC-DLLM)
+- **DynamicInfer: Runtime-Aware Sparse Offloading for LLMs Inference on a Consumer-Grade GPU** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0b9762d1f15c68057275fa18d384c1a8-Abstract-Conference.html)
+- **Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html)
+- **EntropyLong: Effective Long-Context Training via Predictive Uncertainty** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/07e278a120830b10aae20cc600a8c07b-Abstract-Conference.html)
+- **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6fc63067ef32cfda806afbd8328ab27e-Abstract-Conference.html)
+- **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5d8d4e6061c3ba96c240b7fa1ae3471d-Abstract-Conference.html)
+- **FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/61674667d642ae52f6bb281bea90ee29-Abstract-Conference.html) [CODE](https://github.com/yedaotian9/GRPO_speculative)
+- **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5137e40ee586c4f1fc3615cf8cee4f87-Abstract-Conference.html)
+- **Ghost in the Cloud: Your Geo-Distributed Large Language Models Training is Easily Manipulated** — Cloud and Kubernetes. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2bdc2267c3d7d01523e2e17ac0a754f3-Abstract-Conference.html)
+- **Guided Speculative Inference for Efficient Test-Time Alignment of LLMs** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/79cab89b43ac21c6941ad9735df95d30-Abstract-Conference.html)
+- **Improving Block-Wise LLM Quantization by 4-bit Block-Wise Optimal Float (BOF4): Analysis and Variations** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0bb9b8b55b0fd61c7788a8a4ddbd3ddd-Abstract-Conference.html)
+- **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7f9923be721e32592466d9a49c6364e1-Abstract-Conference.html)
+- **KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f868c3e0050f13ec82d3694df531de1-Abstract-Conference.html)
+- **KV Cache Transform Coding for Compact Storage in LLM Inference** — Storage and Data Pipelines. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html)
+- **Learning To Draft: Adaptive Speculative Decoding with Reinforcement Learning** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/34345e243156da67605d4b63d71c8d98-Abstract-Conference.html)
+- **Leveraging Pretrained Knowledge at Inference Time: LoRA-Gated Contrastive Decoding for Multilingual Factual Language Generation in Adapted LLMs** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/860e5b214c842eaedaa6b4026ee91aac-Abstract-Conference.html)
+- **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** — Observability, Reliability and Benchmarking. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html)
+- **Look Back to Reason Forward: Revisitable Memory for Long-Context LLM Agents** — Accelerators, Architecture and Memory. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7e0dc9ccba0f1333be13a3f9dc2b3138-Abstract-Conference.html)
+- **LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/746222c1871d3fa7a94bdacabc34e26c-Abstract-Conference.html)
+- **LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6b241c515433caae3051266668d808b7-Abstract-Conference.html)
+- **MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent** — Accelerators, Architecture and Memory. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4264ee4376776907c0b87ed70b959585-Abstract-Conference.html)
+- **Metis: Training LLMs with FP4 Quantization** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7740c0dc79dc282a29384ceb9d3b2408-Abstract-Conference.html)
+- **MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/431d53d513461ff155d5bc8faa9a440c-Abstract-Conference.html)
+- **NLI : Non-uniform Linear Interpolation Approximation of Nonlinear Operations for Efficient LLMs Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/812c6e27edecd771cc494eb4a06e8927-Abstract-Conference.html)
+- **Not-a-Bandit: Provably No-Regret Drafter Selection in Speculative Decoding for LLMs** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/20563b8508ba42e1b688d922e926ee26-Abstract-Conference.html)
+- **On-the-Fly Adaptation to Quantization: Configuration-Aware LoRA for Efficient Fine-Tuning of Quantized LLMs** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1687466683649e8bdcdec0e3f5c8de64-Abstract-Conference.html)
+- **ParaRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/57d8ebf4c2f050a6485f370d47656a9e-Abstract-Conference.html)
+- **ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7caf9d251b546bc78078b35b4a6f3b7e-Abstract-Conference.html)
+- **PERK: Long-Context Reasoning as Parameter-Efficient Test-Time Learning** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1179c561a4efc77fbfda76aa1addce33-Abstract-Conference.html)
+- **Point-MoE: Large-Scale Multi-Dataset Training with Mixture-of-Experts for 3D Semantic Segmentation** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2f7001684feb23ca6569352eda963f39-Abstract-Conference.html)
+- **PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6e73c39cc428c7d264d9820319f31e79-Abstract-Conference.html)
+- **Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/372dee09e0c3c17df69d990b4735adac-Abstract-Conference.html) [CODE](https://github.com/griver/Q-RAG)
+- **Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/805da7ef883245cb35e012cc179a5f6f-Abstract-Conference.html)
+- **Reconstructing KV Caches with Cross-Layer Fusion for Enhanced Transformers** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8c22e5e918198702765ecff4b20d0a90-Abstract-Conference.html)
+- **ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8be9c134bb193d8bd3827d4df8488228-Abstract-Conference.html) [CODE](https://github.com/an-yongqi/rest-kv)
+- **Rethinking Residual Errors in Compensation-based LLM Quantization** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/087b346ca4d6dd6fcd0663ff6c9a6b69-Abstract-Conference.html) [CODE](https://github.com/list0830/ResComp)
+- **RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers** — Accelerators, Architecture and Memory. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ed4530426783ad11be9f61728d4ad88-Abstract-Conference.html)
+- **Routing Manifold Alignment Improves Generalization of Mixture-of-Experts LLMs** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/249b8d8f41970822651435629e68a6e1-Abstract-Conference.html)
+- **SERQ: Saliency-Aware Low-Rank Error Reconstruction for LLM Quantization** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ca380c5fe9f174a71a230478741169f-Abstract-Conference.html) [CODE](https://github.com/acalabys/SERQ)
+- **Smooth Reading: Bridging the Gap of Recurrent LLM to Self-Attention LLM on Long-Context Understanding** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/469c396a192043e3d70c04bdb3e5a532-Abstract-Conference.html)
+- **SpareTrain: Fault-Tolerant LLM Training via Low-Cost Dual Modular Redundancy** — Observability, Reliability and Benchmarking. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/584c609e4d9822eafa0304e8757ed8c2-Abstract-Conference.html)
+- **SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/67089958e98b243d5cc1881ad60418b8-Abstract-Conference.html)
+- **Speculative Speculative Decoding** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b96f01343ff10150e6719eb163e1536-Abstract-Conference.html)
+- **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html)
+- **Tequila: Trapping-free Ternary Quantization for Large Language Models** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html) [CODE](https://github.com/Tencent/AngelSlim)
+- **Towards Greater Leverage: Scaling Laws for Efficient Mixture-of-Experts Language Models** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/32b640528f5b67975562210f00c131ed-Abstract-Conference.html)
+- **Towards Quantization-Aware Training for Ultra-Low-Bit Reasoning LLMs** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/209423f076b6479ab3a4f45886e30306-Abstract-Conference.html)
+- **Training Large Language Models To Reason In Parallel With Global Forking Tokens** — Training Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/88af3540325dd0b70617a9ab605f294d-Abstract-Conference.html)
+- **Understanding Cross-layer Contributions to Mixture-of-Experts Routing in LLMs** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3efdd3cd3d70da09ec6ed3b3d17d2fd5-Abstract-Conference.html)
+- **UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/370fa2e691f57eb319bc263a07dad4a5-Abstract-Conference.html) [CODE](https://github.com/enyac-group/UniQL)
+- **Universal Model Routing for Efficient LLM Inference** — Inference and Serving. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/113ae3a9762ca2168f860a8501d6ae25-Abstract-Conference.html)
+- **When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models** — Efficient LLM Systems. [PUB](https://proceedings.iclr.cc/paper_files/paper/2026/hash/665654759cdf2114c0cbe2b8e501e00e-Abstract-Conference.html)
+
 <a id="iclr-2025"></a>
 #### 2025
 
@@ -1194,6 +1289,20 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 - **Distilling Universal and Joint Knowledge for Cross-Domain Model Compression on Time Series Data** — Efficient LLM Systems. [PUB](https://doi.org/10.24963/ijcai.2023/496) [CODE](https://github.com/ijcai2023/UNI)
 - **FastGR: Global Routing on CPU-GPU with Heterogeneous Task Graph Scheduler (Extended Abstract)** — Scheduling and Resource Management. [PUB](https://doi.org/10.24963/ijcai.2023/720)
 
+### IJCAI/ECAI
+
+<a id="ijcai-ecai-2026"></a>
+#### 2026
+
+- **Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques** — Inference and Serving. [PUB](https://doi.org/10.24963/ijcai.2026/873)
+- **Budget-Aware LLM Quantization and Low-Rank Correction via Information-Guided Subspace Matrices** — Efficient LLM Systems. [PUB](https://doi.org/10.24963/ijcai.2026/475)
+- **Interaction Effects in Hybrid Compression of Small Language Models** — Efficient LLM Systems. [PUB](https://doi.org/10.24963/ijcai.2026/631)
+- **Low-Latency Real-Time Audio Game Commentary System via LLM-Based Parallel Text Generation** — Efficient LLM Systems. [PUB](https://doi.org/10.24963/ijcai.2026/972)
+- **M-LoRA: Efficient Serving for Concurrent LoRA Adapters with Memory-Aware Speculative Scheduler on Single GPU** — Scheduling and Resource Management. [PUB](https://doi.org/10.24963/ijcai.2026/502)
+- **QFlash: Bridging Quantization and Memory Efficiency in Vision Transformer Attention** — Accelerators, Architecture and Memory. [PUB](https://doi.org/10.24963/ijcai.2026/167) [CODE](https://github.com/EfficientCompLab/qflash)
+- **SplitScaling: Adaptive Scaling for Disaggregated LLM Serving Against Traffic Bursts via DRL** — Inference and Serving. [PUB](https://doi.org/10.24963/ijcai.2026/568)
+- **StreamTimer: Efficient Inference for Long-Context Time Series Transformers** — Inference and Serving. [PUB](https://doi.org/10.24963/ijcai.2026/327)
+
 ### ISCA
 
 <a id="isca-2026"></a>
@@ -1273,12 +1382,23 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 <a id="kdd-2026"></a>
 #### 2026
 
+- **Aquavit: Ascending Quantization for Communication-Efficient Vast-Scale Distributed Training** — Distributed Communication and Networking. [PUB](https://doi.org/10.1145/3770855.3818083)
+- **C2KV: Compressed and Composable KV Cache Reuse for Efficient LLM Inference** — Inference and Serving. [PUB](https://doi.org/10.1145/3770855.3817715)
+- **Deconstructing Staleness: Mitigating Training-Serving Skew in Industrial-scale Online Learning Models** — Inference and Serving. [PUB](https://doi.org/10.1145/3770855.3818354)
+- **EPTS: Elastic Post-Training Sparsity for Efficient Large Language Model Compression** — Training Systems. [PUB](https://doi.org/10.1145/3770855.3817817)
 - **FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts** — Efficient LLM Systems. [PUB](https://doi.org/10.1145/3770854.3780165) [CODE](https://github.com/yijizhao/FaST)
+- **G-STAR: Graph-based Scheduling with Trace-driven Adaptive Routing for Industrial LLM-based Multi-Agent Systems** — Scheduling and Resource Management. [PUB](https://doi.org/10.1145/3770855.3818421)
+- **HierKV: A Coarse-to-Fine Approach with Vision-Aware Banzhaf Values for Multi-Modal KV Cache Compression** — Inference and Serving. [PUB](https://doi.org/10.1145/3770855.3817663)
 - **Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning** — Scheduling and Resource Management. [PUB](https://doi.org/10.1145/3770854.3780325)
+- **How Much Reasoning Do Retrieval-Augmented Models Add beyond LLMs? A Benchmarking Framework for Multi-Hop Inference over Hybrid Knowledge** — Observability, Reliability and Benchmarking. [PUB](https://doi.org/10.1145/3770855.3817481)
 - **MTGenRec: An Efficient Distributed Training System for Generative Recommendation Models in Meituan** — Training Systems. [PUB](https://doi.org/10.1145/3770854.3783925)
+- **NodeBits: A Plug-and-Play Framework for Accelerating Graph Inference by Post-Hoc Binary Quantization** — Inference and Serving. [PUB](https://doi.org/10.1145/3770855.3817681)
+- **OrionInfer: Low-Overhead Parallelism Switching and Live Migration for Efficient LLM Serving** — Inference and Serving. [PUB](https://doi.org/10.1145/3770855.3817626)
 - **Reinforcement Speculative Decoding for Fast Ranking** — Inference and Serving. [PUB](https://doi.org/10.1145/3770854.3780197)
 - **RUQuant: Towards Refining Uniform Quantization for Large Language Models** — Efficient LLM Systems. [PUB](https://doi.org/10.1145/3770854.3780259)
+- **SciHorizon-Gene: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding** — Observability, Reliability and Benchmarking. [PUB](https://doi.org/10.1145/3770855.3817489)
 - **TAMEing Long Contexts in Personalization: Towards Training-Free and State-Aware MLLM Personalized Assistant** — Training Systems. [PUB](https://doi.org/10.1145/3770854.3780214)
+- **Teaching LLMs to Write System Kernels for AI Accelerators: Post-Training, Reasoning, and Agentic Optimization** — Training Systems. [PUB](https://doi.org/10.1145/3770855.3816468)
 
 <a id="kdd-2025"></a>
 #### 2025
@@ -2000,6 +2120,7 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 #### 2026
 
 - **Efficient and Effective Weight-Ensembling Mixture of Experts for Multi-Task Model Merging** — Efficient LLM Systems. [PUB](https://doi.org/10.1109/TPAMI.2025.3629605)
+- **Task-KV: Task-Aware KV Cache Optimization via Semantic Differentiation of Attention Heads** — Inference and Serving. [PUB](https://doi.org/10.1109/TPAMI.2026.3708708)
 - **Toward Optimal Mixture of Experts System for 3D Object Detection: A Game of Accuracy, Efficiency and Adaptivity** — Efficient LLM Systems. [PUB](https://doi.org/10.1109/TPAMI.2025.3611795)
 
 <a id="tpami-2025"></a>
@@ -2019,11 +2140,13 @@ Automatic synchronization runs on days 4 and 18 at 01:15 UTC, one day after each
 - **ARGO+: Achieving Multi-Level Scalable GNN Training on Distributed Multi-Core Platform** — Training Systems. [PUB](https://doi.org/10.1109/TPDS.2026.3698481)
 - **cuFastTuckerPlusTC: A Stochastic Parallel Sparse FastTucker Decomposition Using GPU Tensor Cores** — Accelerators, Architecture and Memory. [PUB](https://doi.org/10.1109/TPDS.2025.3636547)
 - **Efficient KV Cache Spillover Management on Memory-Constrained GPU for LLM Inference** — Inference and Serving. [PUB](https://doi.org/10.1109/TPDS.2025.3626974)
+- **FairCache: Demystifying Cache-Induced Unfairness in Multi-Tenant Large Language Model Serving** — Cloud and Kubernetes. [PUB](https://doi.org/10.1109/TPDS.2026.3729988)
 - **FLARE: Efficient Distributed Large-Scale Graph Neural Networks Training With Adaptive Latency-Aware Probabilistic Caching** — Distributed Communication and Networking. [PUB](https://doi.org/10.1109/TPDS.2026.3660379)
 - **GLPilot: Efficient Distributed GNN Training With Learnable Embeddings** — Training Systems. [PUB](https://doi.org/10.1109/TPDS.2025.3636057)
 - **gPooling: An Elastic GPU Resource Management Framework for On-Demand Virtualization in Shared Accelerator Clusters** — Scheduling and Resource Management. [PUB](https://doi.org/10.1109/TPDS.2026.3713365)
 - **Joint Optimization of Resource Allocation and Request Batching for Multi-Tenant Inference Serving on GPU** — Cloud and Kubernetes. [PUB](https://doi.org/10.1109/TPDS.2025.3627574)
 - **LIBPipe: Efficient Load Imbalance Pipeline Model Parallelism for Large Models Training** — Training Systems. [PUB](https://doi.org/10.1109/TPDS.2026.3686206)
+- **Mix-or-Split: Latency-Aware Scheduling for Edge-Cloud LLM Inference** — Cloud and Kubernetes. [PUB](https://doi.org/10.1109/TPDS.2026.3729256)
 - **nnScaler-M: Constraint-Guided and Placement-Aware Parallelization Plan Generation for Deep Learning Training** — Training Systems. [PUB](https://doi.org/10.1109/TPDS.2026.3691363)
 - **Practical Machine Learning Autotuning for Large-Scale Collective Communication** — Distributed Communication and Networking. [PUB](https://doi.org/10.1109/TPDS.2026.3661876)
 - **Pro-Prophet: A Systematic Load Balancing Method for Efficient Parallel Training of Large-Scale MoE Models** — Scheduling and Resource Management. [PUB](https://doi.org/10.1109/TPDS.2026.3668887)
