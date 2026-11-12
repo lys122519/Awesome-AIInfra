@@ -61,7 +61,6 @@ jobs:
         working-directory: awesome
         run: |
           python scripts/generate_readme.py
-          python scripts/generate_readme.py --check
           python -m unittest discover -s tests -v
 
       - name: Commit automatic additions

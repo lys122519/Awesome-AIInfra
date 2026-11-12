@@ -9,22 +9,14 @@ from pathlib import Path
 
 import yaml
 
-
-ROOT = Path(__file__).resolve().parents[1]
-PAPERS_PATH = ROOT / "data" / "papers.yaml"
-REJECTED_PATH = ROOT / "data" / "rejected.yaml"
-
-
-def _load_list(path: Path, key: str) -> list[dict]:
-    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    values = payload.get(key, []) if isinstance(payload, dict) else []
-    if not isinstance(values, list):
-        raise ValueError(f"{path} must contain a top-level `{key}` list")
-    return values
-
-
-def _publication_key(record: dict) -> str:
-    return str(record.get("publication", "")).strip().casefold()
+from generate_readme import (
+    PAPERS_PATH,
+    REJECTED_PATH,
+    load_and_validate,
+    load_and_validate_rejected,
+    load_list,
+    publication_key,
+)
 
 
 def apply_decisions(
@@ -33,23 +25,18 @@ def apply_decisions(
     review_method: str,
     accept_only: bool = False,
 ) -> tuple[int, int, int]:
-    decisions = _load_list(decision_path, "decisions")
-    papers = _load_list(PAPERS_PATH, "papers")
-    rejected = _load_list(REJECTED_PATH, "rejected")
+    decisions = load_list(decision_path, "decisions")
+    papers = load_and_validate(PAPERS_PATH)
+    rejected = load_and_validate_rejected(papers, REJECTED_PATH)
 
-    accepted_urls = {_publication_key(item) for item in papers}
-    rejected_urls = {_publication_key(item) for item in rejected}
-    if "" in accepted_urls | rejected_urls:
-        raise ValueError("all accepted and rejected records must have a publication URL")
-    overlap = accepted_urls & rejected_urls
-    if overlap:
-        raise ValueError(f"accepted/rejected datasets already overlap: {sorted(overlap)[0]}")
+    accepted_urls = {publication_key(item) for item in papers}
+    rejected_urls = {publication_key(item) for item in rejected}
 
     added_accepted = 0
     added_rejected = 0
     skipped = 0
     for index, item in enumerate(decisions, start=1):
-        publication = _publication_key(item)
+        publication = publication_key(item)
         decision = item.get("decision")
         if not publication:
             raise ValueError(f"decision #{index} has no publication URL")

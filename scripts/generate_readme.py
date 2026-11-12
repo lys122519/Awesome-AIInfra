@@ -41,10 +41,19 @@ REQUIRED_FIELDS = {
 }
 
 
-def validate_papers(papers: object) -> list[dict]:
-    if not isinstance(papers, list):
-        raise ValueError("data/papers.yaml must contain a top-level `papers` list")
+def load_list(path: Path, key: str) -> list[dict]:
+    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    values = payload.get(key, []) if isinstance(payload, dict) else []
+    if not isinstance(values, list):
+        raise ValueError(f"{path.name} must contain a top-level `{key}` list")
+    return values
 
+
+def publication_key(record: dict) -> str:
+    return str(record.get("publication", "")).strip().casefold()
+
+
+def validate_papers(papers: list[dict]) -> list[dict]:
     seen_titles: set[str] = set()
     seen_publications: set[str] = set()
     for index, paper in enumerate(papers, start=1):
@@ -63,31 +72,25 @@ def validate_papers(papers: object) -> list[dict]:
             raise ValueError(f"paper #{index} has an invalid year") from exc
 
         title_key = " ".join(str(paper["title"]).casefold().split())
-        publication_key = str(paper["publication"]).strip().casefold()
+        publication = publication_key(paper)
         if title_key in seen_titles:
             raise ValueError(f"duplicate title: {paper['title']}")
-        if publication_key in seen_publications:
+        if publication in seen_publications:
             raise ValueError(f"duplicate publication URL: {paper['publication']}")
         seen_titles.add(title_key)
-        seen_publications.add(publication_key)
+        seen_publications.add(publication)
     return papers
 
 
 def load_and_validate(path: Path = PAPERS_PATH) -> list[dict]:
-    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    papers = payload.get("papers", []) if isinstance(payload, dict) else []
-    return validate_papers(papers)
+    return validate_papers(load_list(path, "papers"))
 
 
 def load_and_validate_rejected(
     accepted_papers: list[dict], path: Path = REJECTED_PATH
 ) -> list[dict]:
-    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    rejected = payload.get("rejected", []) if isinstance(payload, dict) else []
-    if not isinstance(rejected, list):
-        raise ValueError("data/rejected.yaml must contain a top-level `rejected` list")
-
-    accepted_urls = {str(paper["publication"]).strip().casefold() for paper in accepted_papers}
+    rejected = load_list(path, "rejected")
+    accepted_urls = {publication_key(paper) for paper in accepted_papers}
     seen_urls: set[str] = set()
     required = {"title", "publication", "reason", "source", "reviewed_at"}
     for index, record in enumerate(rejected, start=1):
@@ -96,7 +99,7 @@ def load_and_validate_rejected(
         missing = sorted(field for field in required if not record.get(field))
         if missing:
             raise ValueError(f"rejected record #{index} is missing: {', '.join(missing)}")
-        publication = str(record["publication"]).strip().casefold()
+        publication = publication_key(record)
         if publication in accepted_urls:
             raise ValueError(f"publication is both accepted and rejected: {record['publication']}")
         if publication in seen_urls:

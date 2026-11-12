@@ -1,11 +1,10 @@
+import sys
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from uuid import uuid4
 
 import yaml
-
-import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -15,10 +14,10 @@ import apply_screening  # noqa: E402
 
 class ApplyScreeningTests(unittest.TestCase):
     def test_accept_only_applies_accepts_and_leaves_rejects_unrecorded(self):
-        token = uuid4().hex
-        paths = [ROOT / "tests" / f".tmp-{token}-{name}.yaml" for name in ("papers", "rejected", "decisions")]
-        papers_path, rejected_path, decisions_path = paths
-        try:
+        with tempfile.TemporaryDirectory() as tmp:
+            papers_path, rejected_path, decisions_path = (
+                Path(tmp) / f"{name}.yaml" for name in ("papers", "rejected", "decisions")
+            )
             papers_path.write_text("papers: []\n", encoding="utf-8")
             rejected_path.write_text("rejected: []\n", encoding="utf-8")
             decisions_path.write_text(
@@ -72,9 +71,6 @@ class ApplyScreeningTests(unittest.TestCase):
             self.assertTrue(papers[0]["reviewed"])
             self.assertEqual(papers[0]["review_method"], "automated-test")
             self.assertEqual(rejected, [])
-        finally:
-            for path in paths:
-                path.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

@@ -16,13 +16,7 @@ A curated collection of papers, systems, tools, and learning resources for AI In
 
 ## Update Workflow
 
-1. The tracker discovers candidate papers from official DBLP snapshots.
-2. Candidates are screened for relevance, metadata quality, and category placement.
-3. High-confidence matches are collected automatically; ambiguous candidates remain available for human review through pull requests.
-4. `scripts/generate_readme.py` validates the data and regenerates this paper list.
-5. Human-reviewed rejections are recorded in `data/rejected.yaml` to avoid repeated review; automatic screening never records a rejection.
-
-Automatic synchronization runs on days 7 and 21 at 01:15 UTC, one day after each scheduled tracker update. Every automatic change must pass data validation and the test suite before it is committed.
+The tracker discovers candidates from official DBLP snapshots. On days 7 and 21, high-confidence matches are collected automatically after passing validation and tests; other candidates remain available for human review through pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for the review rules and workflow.
 
 ## Curated Papers
 
@@ -2298,4 +2292,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Suggestions and corrections are welcome 
 
 ## 中文说明
 
-本仓库维护经过人工审核的 AI Infrastructure 论文、系统、工具与学习资源。候选论文由 [AIInfra-paper-update-tracker](https://github.com/lys122519/AIInfra-paper-update-tracker) 自动发现；正式内容统一通过 Pull Request 审核后写入 `data/papers.yaml`，README 由脚本自动生成。
+本仓库维护经过筛选的 AI Infrastructure 论文、系统、工具与学习资源。候选论文由 [AIInfra-paper-update-tracker](https://github.com/lys122519/AIInfra-paper-update-tracker) 自动发现；高置信度候选由定时任务自动收录，其余候选通过 Pull Request 人工审核后写入 `data/papers.yaml`。README 由脚本自动生成。
